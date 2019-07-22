@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'LYSNetworkDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for LYSNetworkDemo
+
+  target 'LYSNetworkDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LYSNetworkDemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+ pod 'AFNetworking', '~> 3.2.1'
+end
